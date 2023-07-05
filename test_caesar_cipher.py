@@ -47,7 +47,7 @@ def test_round_trip():
 
 
 def test_crack_phrase():
-    phrase = "It was the best of times, it was the worst of times."
+    phrase = "I can do nothing for you but work on myself...you can do nothing for me but work on yourself!"
     encrypted = encrypt(phrase, 10)
     actual = crack(encrypted)
     expected = phrase
